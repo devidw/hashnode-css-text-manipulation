@@ -1,0 +1,14 @@
+$text-wait-time: 2
+$delay: 0
+
+@each $selector, $font-size, $texts in $animation-texts
+    $current-index: index($animation-texts, ($selector, $font-size, $texts))
+    // @debug $current-index
+
+    @if $current-index != 1
+        $index: $current-index - 1
+        $item: nth($animation-texts, $index)
+        $item-texts: nth($item, 3)
+        $delay: $delay + length($item-texts) * $text-wait-time
+
+    +animation-text-change-bulk($delay, $selector, $font-size, $texts)

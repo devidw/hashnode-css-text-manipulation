@@ -1,0 +1,37 @@
+@keyframes hide-text
+    to
+        font-size: 0
+
+@keyframes dw-null
+
+=animation-text-change($start, $selector, $font-size, $changes)
+    // $font-size: 1rem
+    $animation-names: 'dw-null'
+    $animation-delays: '0s'
+    $animation-durations: '0s'
+
+    @each $delay, $duration, $text in $changes
+        $name: 'dw-' + round($start) + '-' + random(100000000)
+        $animation-names: $animation-names + ', ' + $name
+        $animation-delays: $animation-delays + ', ' + $delay
+        $animation-durations: $animation-durations + ', ' + $duration
+
+        @keyframes #{$name}
+            to
+                content: $text
+                font-size: #{$font-size}
+
+    #{$selector}
+        animation-name: hide-text
+        animation-delay: #{$start}s
+        animation-duration: 0.01s
+        animation-fill-mode: forwards
+
+        &::after
+            content: ''
+            vertical-align: bottom
+            animation-name: #{$animation-names}
+            animation-delay: #{$animation-delays}
+            animation-duration: #{$animation-durations}
+            animation-fill-mode: forwards
+            animation-direction: alternate

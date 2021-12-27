@@ -1,0 +1,124 @@
+$animation-texts: (
+  (
+    "h1.blog-title > a",
+    (
+      "Hey You",
+      "Yes",
+      "Y 🙃 U",
+      "How are you?",
+      "…",
+      "Nice",
+      "…",
+      "Oh thanks",
+      "I'm fine 😀",
+      "…",
+      "Haha",
+      "You like it?",
+      "♥"
+    )
+  ),
+  (
+    ".blog-subscription-form-message",
+    (
+      "If you like to",
+      "you can drop",
+      "your email 🥰",
+      "➡",
+      "➡ ➡",
+      "➡ ➡ ➡",
+      "➡ ➡ ➡ ➡",
+      "➡ ➡ ➡ ➡ ➡",
+      "➡ ➡ ➡ ➡ ➡ ➡",
+      "would really",
+      "really",
+      "like",
+      "to stay in",
+      "touch with",
+      "YOU",
+      "…",
+      "email here ➡",
+    )
+  ),
+  (".blog-subscription-form-button", ("Why not just", "subscribe here")),
+  (".blog-follow-button > span", ("Give me a follow? 😉")),
+  // active nav tab
+  // (".blog-nav-active", ("💚")),
+  // article title
+  (
+      ".blog-post-card-title > a",
+      (
+        "So many 🆒 articles, huh?",
+        "😎",
+        "You can read them ALL for FREE!",
+        "💜"
+      )
+    ),
+  // article description
+  (
+      ".blog-post-card-brief > a",
+      (
+        "Should we stop?",
+        "No",
+        "Not really, or?",
+        "I know you are enjoying it, aren't you?",
+        "Haha",
+        "That's it.",
+        "💛",
+        "You may ask yourself, what the f** is happening??",
+        "well",
+        "why not?",
+        "There is this feature on Hashnode",
+        "you know",
+        "custom",
+        "C",
+        "S",
+        "S",
+        "And you know what?",
+        "CSS is pretty powerful",
+        "Like you see …",
+        "🧡",
+      )
+    ),
+  // publish date
+  (
+      "a.blog-post-card-time",
+      (
+        "I",
+        "mean",
+        "let's",
+        "take this",
+        "for example",
+        "OR",
+        "||",
+        "or",
+        "wait",
+        "even",
+        "better",
+        "look",
+        "💙",
+      )
+    ),
+  // read time
+  (
+      ".blog-post-card-meta > a[aria-label*='min read'] > span",
+      ("to long", "to read", "🤍")
+    ),
+  // views count
+  (
+      ".blog-post-card-meta > a[aria-label*='views'] > span",
+      (
+        "puh",
+        "soo",
+        "many",
+        "views",
+        "haha",
+        "just",
+        "kidding",
+        "😞",
+        "😹😹😹",
+        "😺",
+        "🧡"
+      )
+    ),
+    (".blog-follow-button > span", ("😉 😉", "Give me a F🙃LL😉W??")),
+);

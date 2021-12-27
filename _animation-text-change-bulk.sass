@@ -1,0 +1,12 @@
+=animation-text-change-bulk($start, $selector, $font-size, $texts)
+    $changes: ()
+    $counter: 0
+
+    @each $text in $texts
+        $wait: $text-wait-time
+        $change: (#{$start + $counter * $wait}s #{$wait}s $text)
+        $changes: append($changes, $change, comma)
+        $counter: $counter + 1
+        
+    // @debug($changes)
+    +animation-text-change($start, $selector, $font-size, $changes)

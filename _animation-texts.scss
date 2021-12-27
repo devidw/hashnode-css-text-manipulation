@@ -1,0 +1,55 @@
+$animation-texts: (
+  (
+    ".blog-author-area-name > a",
+    "1.875rem",
+    (
+      "Hey you",
+      "Yes",
+      "Y🙃U",
+      "👋",
+    )
+  ),
+  // Author card intro text
+  (
+    ".blog-author-card > div > div:first-child > div:last-child > p",
+    "1rem",
+    (
+      "How are you?",
+      "…",
+      "Oh, I'm fine - thank you.",
+      "🙂",
+    )
+  ),
+  // Follow
+  (
+    ".blog-follow-button > span",
+    "1rem",
+    (
+      "Would you like to follow me?",
+      "Press here to follow me.",
+      "🔥",
+      "Follow",
+    )
+  ),
+  // Follower count
+  (
+    ".blog-followers-count > span > strong",
+    "1.125rem",
+    (
+      "0",
+      "1",
+      "10",
+      "100",
+      "1,000",
+      "10,000",
+      "100,000",
+      "1,000,000",
+      "10,000,000",
+      "100,000,000",
+      "1,000,000,000",
+      "10,000,000,000",
+      "100,000,000,000",
+      "1,000,000,000,000",
+    )
+  ),  
+);

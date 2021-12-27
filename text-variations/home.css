@@ -1,0 +1,38 @@
+.blog-post-card-meta > a[aria-label*="min read"] > span,
+.blog-post-card-meta > a[aria-label*="views"] > span,
+.blog-footer-credits + div > span {
+  font-size: 0;
+}
+
+.blog-post-card-meta > a[aria-label*="min read"] > span:after,
+.blog-post-card-meta > a[aria-label*="views"] > span:after,
+.blog-footer-credits + div > span:after {
+  font-size: 0.875rem;
+  vertical-align: bottom;
+}
+
+.blog-post-card-meta > a[aria-label*="min read"] > span:after {
+  content: "to long to read";
+}
+
+.blog-post-card-meta > a[aria-label*="views"] > span:after {
+  content: "to many views";
+}
+
+.blog-footer-credits + div > span:after {
+  content: "Proudly hosted on";
+}
+
+@keyframes example {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: white;
+  }
+}
+
+.blog-header {
+  background-color: red;
+  animation-name: example;
+}
