@@ -1,3 +1,2 @@
 tests/** linguist-vendored
-main.min.css linguist-generated
-main.min.css.map linguist-generated
+*.css linguist-generated
