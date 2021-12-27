@@ -1,1 +1,1 @@
-= CSS Text Manipulation on Hashnode Blogs
+= Text Manipulation with custom CSS on Hashnode
