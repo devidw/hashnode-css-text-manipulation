@@ -1,1 +1,5 @@
 = Text Manipulation with custom CSS on Hashnode
+
+I wrote a blog post about _https://david.wolf.gdn/how-i-hacked-my-hashnode-blog-with-only-css-and-was-able-to-manipulate-any-text-on-it/[How I hacked my Hashnode blog with only CSS and was able to manipulate any text on it]_.
+
+The source code of the generated custom CSS to paste on Hashnode can be found in this repository.
